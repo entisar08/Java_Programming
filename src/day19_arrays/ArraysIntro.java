@@ -13,7 +13,12 @@ scores[0]=87;
 
 
 
-        System.out.println(Arrays.toString(scores));
+        //System.out.println(Arrays.toString(scores));
+        System.out.println(scores[3]);
+        for (int i = 0; i < scores.length; i++) {
+            System.out.println(scores[i]);
+
+        }
 
     }
 

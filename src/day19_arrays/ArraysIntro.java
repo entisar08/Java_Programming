@@ -5,7 +5,7 @@ public class ArraysIntro {
 
         int[] scores=new int[5];//index numbers 0 - 4
 
-scores[0]=87;
+        scores[0]=87;
         scores[1]=76;
         scores[2]=90;
         scores[3]=98;

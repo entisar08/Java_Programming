@@ -14,10 +14,12 @@ public class ArrayLiteral {
 
         //element:         1            2          3            4         5          6          7
         String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+
         //index:           0           1           2            3          4          5          6
-
+days[3]="uhuugu";
         int n = 1;
-
+        System.out.println("days = " + Arrays.toString(days));
+        System.out.println("----------------------------------------------------");
         System.out.println( days[n-1] );
 
         System.out.println("----------------------------------------------------------");

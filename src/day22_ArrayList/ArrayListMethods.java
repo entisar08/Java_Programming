@@ -14,7 +14,7 @@ public class ArrayListMethods {
         //list.add(5.5);
         System.out.println(list);
 
-        list.add(1, 15); //1
+        list.add(1, 15); //1 as long as you have the index in the list
 
         System.out.println(list);
         list.add(2, 25);

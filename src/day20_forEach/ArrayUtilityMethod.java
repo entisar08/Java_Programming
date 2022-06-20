@@ -61,7 +61,7 @@ public class ArrayUtilityMethod {
 
         System.out.println(Arrays.toString(students));
 
-        System.out.println("---------------------------------------");
+        System.out.println("------------------نننننننننننننننن---------------------");
 
         int[] array = {10, 20, 30, 40, 50, 60, 70};
 

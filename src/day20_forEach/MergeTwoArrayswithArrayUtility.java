@@ -3,7 +3,7 @@ package day20_forEach;
 import java.util.Arrays;
 import utilities.ArraysUtility;
 
-public class MergeTwoArrays2instructor {
+public class MergeTwoArrayswithArrayUtility {
     public static void main(String[] args) {
         int[] arr1 = {1,2,3,4};
         int[]  arr2 = {5,6,7};

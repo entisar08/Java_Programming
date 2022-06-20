@@ -17,7 +17,7 @@ public class ArrayLiteral {
 
         //index:           0           1           2            3          4          5          6
 days[3]="uhuugu";
-        int n = 1;
+        int n = 1;//in case user enter number from to 7 calculate the exact indx
         System.out.println("days = " + Arrays.toString(days));
         System.out.println("----------------------------------------------------");
         System.out.println( days[n-1] );

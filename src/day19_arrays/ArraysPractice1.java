@@ -18,14 +18,14 @@ public class ArraysPractice1 {
             System.out.println(myGroup[i]);
             }
         for (int i = 0; i < myGroup.length; i++) {//mygroup.fori loop forward}
-            System.out.println("");
+            System.out.println(myGroup[i]);
         }
         // mygrouop.forr loop in reverse
         for (int i = myGroup.length - 1; i >= 0; i--) System.out.println("");
 
         int[] counter=new int[100];
-        for (int i = 0; i < counter.length; i++) {
-            counter[i]=i;
+        for (int i = 0,j=1; i < counter.length; i++,j++) {
+            counter[i]=j;
         }
         int[] revCounter=new int[100];
         for (int i = revCounter.length-1; i >= 0; i--) {

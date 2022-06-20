@@ -9,8 +9,16 @@ public  int age;
 public char gender;
 public  String color;
 
+    public void setInfo(String name, String breed, String size, int age, char gender, String color) {
+        this.name = name;
+        this.breed = breed;
+        this.size = size;
+        this.age = age;
+        this.gender = gender;
+        this.color = color;
+    }
 
-//create methods called instance methods
+    //create methods called instance methods
     public  void eat(){// not static because static means only one
         System.out.println(name+"is eating");
     }

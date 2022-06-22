@@ -1,4 +1,4 @@
-package Day27_accessModifiers;
+package day27_accessModifiers;
 
 public class StaticBlockVsInstanceBlockVsConstructor {
 
